@@ -1,0 +1,11 @@
+/* Convention: Use class atributtes in CSS module */
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.header img {
+    height: 2.5rem;
+}
