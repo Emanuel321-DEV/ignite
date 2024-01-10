@@ -1,7 +1,13 @@
 'use client';
 import { motion } from "framer-motion";
 
-const AnimatedText = ({ text, className = "" }) => {
+
+interface AnimatedTextProps {
+    text: string;
+    className: string;
+}
+
+const AnimatedText = ({ text, className = "" } : AnimatedTextProps) => {
     const quote = {
         initial: {
             opacity: 0
