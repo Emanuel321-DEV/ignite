@@ -6,14 +6,15 @@ import { FaLinkedin, FaGithub, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-
 interface CustomLink {
     href: string;
     title: string;
     className?: string;
-    toggle: () => void;
 }
 
+interface CustomMobileLink extends CustomLink{
+    toggle: () => void;
+}
 
 const CustomLink = ({ href, title, className }: CustomLink) => {
     const pathname = usePathname();
@@ -30,7 +31,7 @@ const CustomLink = ({ href, title, className }: CustomLink) => {
     )
 };
 
-const CustomMobileLink = ({ href, title, className, toggle }: CustomLink) => {
+const CustomMobileLink = ({ href, title, className, toggle }: CustomMobileLink) => {
 
     const router = useRouter();
     const pathname = usePathname();

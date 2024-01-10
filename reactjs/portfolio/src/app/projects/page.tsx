@@ -2,14 +2,22 @@ import Head from "next/head";
 import { Container } from "../../components/Container";
 import { AnimatedText } from "@/components/AnimatedText";
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { FaGithub } from "react-icons/fa";
-import project1 from "../../../public/images/profile/developer-pic-1.png";
 import projectHubLocal from "../../../public/images/projects/project-hublocal.png";
 import projectWorldTrip from "../../../public/images/projects/project-worldtrip.png";
 import projectIgnews from "../../../public/images/projects/project-ignews.png";
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+interface ProjectType {
+    type: string;
+    title: string;
+    summary: string;
+    img: StaticImageData;
+    link: string;
+    github: string;
+}
+
+const FeaturedProject = ({ type, title, summary, img, link, github }: ProjectType) => {
     return (
         <article className="w-full flex items-center justify-between rounded-3xl border border-solid bg-white shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl sm:px-4">
             <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden round-lg">
@@ -43,7 +51,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     )
 };
 
-const Project = ({ type, title, summary, img, link, github }) => {
+const Project = ({ type, title, summary, img, link, github } : ProjectType) => {
     return (
         <article className="w-full flex flex-col items-center justify-center  border border-solid bg-white relative h-[100%]">
             <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden ">
