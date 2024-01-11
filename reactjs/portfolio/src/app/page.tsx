@@ -1,6 +1,6 @@
 import { Container } from "../components/Container";
 import Image from 'next/image';
-import ProfilePicture from "../../public/images/profile/developer-pic-1.png";
+import ProfilePicture from "../../public/images/profile/laptop2.jpg";
 import { AnimatedText } from '../components/AnimatedText';
 import Link from "next/link";
 import { FaDownload } from "react-icons/fa";
@@ -20,10 +20,9 @@ export default function Home() {
             </Image>
           </div>
           <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-            <AnimatedText text="Turning Vision Into reality With Code And Design" className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl" />
+            <AnimatedText text="Crafting Solutions through Software Development and Design." className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl" />
             <p className="my-4 text-base font-medium">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-              Explore my latest project and articles, showcasing my expertise in React.js and web development
+            Skilled in C#, SQL, JavaScript, TypeScript, Java, C, Git, and passionate about algorithms. I turn concepts into innovative solutions. Explore my latest projects showcasing React.js and web development expertise.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
               <Link 

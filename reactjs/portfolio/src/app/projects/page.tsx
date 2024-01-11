@@ -21,7 +21,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }: ProjectTyp
     return (
         <article className="w-full flex items-center justify-between rounded-3xl border border-solid bg-white shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl sm:px-4">
             <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden round-lg">
-                <Image src={img} alt={title} className="w-full h-auto" />
+                <Image src={img} alt={title} className="w-full h-auto object-cover" />
             </Link>
 
             <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg-w-full lg:pl-0 lg:pt-6 lg:w-full">
@@ -55,7 +55,7 @@ const Project = ({ type, title, summary, img, link, github } : ProjectType) => {
     return (
         <article className="w-full flex flex-col items-center justify-center  border border-solid bg-white relative h-[100%]">
             <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden ">
-                <Image src={img} alt={title} className="h-52 bg-cover" />
+                <Image src={img} alt={title} className="w-full object-cover" />
             </Link>
 
             <div className="w-full flex flex-col items-start justify-between mt-4 p-6">
@@ -95,7 +95,7 @@ export default function Projects() {
             <main className="flex w-full flex-col items-center justify-center">
                 <Container className="w-full pt-16 flex flex-col items-center justify-center">
                     <>
-                        <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+                        <AnimatedText text="Code Unleashes Creativity!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
                         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0" >
                             <div className="col-span-12">
                                 <FeaturedProject
