@@ -14,7 +14,7 @@ export default function Home() {
             <Image 
               src={ProfilePicture} 
               alt="Profile Picture" 
-              className="w-full h-auto lg:hidden md:inline-block md:w-full"
+              className="w-11/12 h-auto lg:hidden md:inline-block md:w-full"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             >
             </Image>

@@ -7,6 +7,9 @@ import { FaGithub } from "react-icons/fa";
 import projectHubLocal from "../../../public/images/projects/project-hublocal.png";
 import projectWorldTrip from "../../../public/images/projects/project-worldtrip.png";
 import projectIgnews from "../../../public/images/projects/project-ignews.png";
+import projectNode from "../../../public/images/projects/nodejs.jpg";
+import projectNodeMain from "../../../public/images/projects/nodejs-main.jpg";
+import projectSincMain from "../../../public/images/projects/sync-logo.png";
 
 interface ProjectType {
     type: string;
@@ -133,6 +136,51 @@ export default function Projects() {
                                     github="https://github.com/Emanuel321-DEV/ReactJS/tree/main/05-reactjs-ignews"
                                 />
                             </div>
+
+                            <div className="col-span-12">
+                                <FeaturedProject
+                                    title="Sinc ERP"
+                                    summary="Sinc ERP is a business management system. I worked assisting in the creation, development and maintenance of the system. Defining standards, performing data modeling, analyzing requirements, proposing and implementing improvements to the system."
+                                    link="https://sincsuite.com.br/"
+                                    type="C# | .NET | MySql | JavaScript"
+                                    img={projectSincMain}
+                                    github="https://sincsuite.com.br/"
+                                />
+                            </div>
+
+                            <div className="col-span-12">
+                                <FeaturedProject
+                                    title="Image Upload"
+                                    summary="This project is an API built with Node.js + Express that enables image uploads to a server. Additionally, the project connects to a MongoDB database, saving the name provided in the request along with the image's path within the server."
+                                    link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/06-nodejs-api-upload-imagens"
+                                    type="Nodejs | Mongoose | Express | Yarn"
+                                    img={projectNodeMain}
+                                    github="https://github.com/Emanuel321-DEV/NodeJS/tree/main/06-nodejs-api-upload-imagens"
+                                />
+                            </div>
+
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Node Concepts"
+                                    summary="This is an application to manage tasks In this challenge, some functionalities had to be implemented, such as creating a new todo, listing all todos, changing the title and deadline of an existing todo, marking a todo as done, deleting a todo."
+                                    link="/"
+                                    type="NodeJS | Typescript | Express | Nodemon"
+                                    img={projectNode}
+                                    github="https://github.com/Emanuel321-DEV/NodeJS/tree/main/01-nodejs-conceitos"
+                                />
+                            </div>
+
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Database Queries"
+                                    summary="In this challenge it was proposed to perform queries in the Postgres database using Typeorm, these should be done using ORM, using the Query Builder, using raw query. Additionally, this challenge has some tests that should be met"
+                                    link="/"
+                                    type="Nodejs | Typescript | TypeOrm | Postgres"
+                                    img={projectNode}
+                                    github="https://github.com/Emanuel321-DEV/NodeJS/tree/main/03-nodejs-desafio-database_queries"
+                                />
+                            </div>
+
                         </div>
                     </>
                 </Container>
