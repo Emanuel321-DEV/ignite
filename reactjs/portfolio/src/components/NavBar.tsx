@@ -81,7 +81,7 @@ const NavBar = () => {
 
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a
-                        href="www.linkedin.com/in/emanuel-henrique-5307b6144"
+                        href="https://www.linkedin.com/in/emanuel-henrique-5307b6144"
                         target={"_blank"}
                         className="w-6 mr-3"
                         whileHover={{
@@ -140,7 +140,7 @@ const NavBar = () => {
 
                     <nav className="flex items-center justify-center flex-wrap mt-4">
                         <motion.a
-                            href="www.linkedin.com/in/emanuel-henrique-5307b6144"
+                            href="https://www.linkedin.com/in/emanuel-henrique-5307b6144"
                             target={"_blank"}
                             className="w-6 mr-3 sm:mr-1"
                             whileHover={{

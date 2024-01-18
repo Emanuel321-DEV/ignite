@@ -130,7 +130,7 @@ export default function Projects() {
                                     Unregistered users only have partial access to publications. O
                                     System has integration with payment method, PrismicCMS, GitHub
                                     OAuth and FaunaDB"
-                                    link="/"
+                                    link="https://ignews-five-peach.vercel.app/"
                                     type="NextJS | ReactJS | Typescript | Chakra-UI"
                                     img={projectIgnews}
                                     github="https://github.com/Emanuel321-DEV/ReactJS/tree/main/05-reactjs-ignews"
@@ -163,7 +163,7 @@ export default function Projects() {
                                 <Project
                                     title="Node Concepts"
                                     summary="This is an application to manage tasks In this challenge, some functionalities had to be implemented, such as creating a new todo, listing all todos, changing the title and deadline of an existing todo, marking a todo as done, deleting a todo."
-                                    link="/"
+                                    link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/01-nodejs-conceitos"
                                     type="NodeJS | Typescript | Express | Nodemon"
                                     img={projectNode}
                                     github="https://github.com/Emanuel321-DEV/NodeJS/tree/main/01-nodejs-conceitos"
@@ -174,7 +174,7 @@ export default function Projects() {
                                 <Project
                                     title="Database Queries"
                                     summary="In this challenge it was proposed to perform queries in the Postgres database using Typeorm, these should be done using ORM, using the Query Builder, using raw query. Additionally, this challenge has some tests that should be met"
-                                    link="/"
+                                    link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/03-nodejs-desafio-database_queries"
                                     type="Nodejs | Typescript | TypeOrm | Postgres"
                                     img={projectNode}
                                     github="https://github.com/Emanuel321-DEV/NodeJS/tree/main/03-nodejs-desafio-database_queries"
