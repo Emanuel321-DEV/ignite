@@ -111,7 +111,7 @@ const NavBar = () => {
                         <FaGithub fontSize={25} />
                     </motion.a>
                     <motion.a
-                        href="https://github.com/Emanuel321-DEV"
+                        href="https://api.whatsapp.com/send?phone=5534999268588&text=Ol%C3%A1%20tudo%20bem?%20Vim%20pelo%20seu%20portf%C3%B3lio!%20Podemos%20conversar%20?"
                         target={"_blank"}
                         className="w-6 ml-3"
                         whileHover={{

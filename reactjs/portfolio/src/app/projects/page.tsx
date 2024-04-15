@@ -11,6 +11,12 @@ import projectNode from "../../../public/images/projects/nodejs.jpg";
 import projectNodeMain from "../../../public/images/projects/nodejs-main.jpg";
 import projectSincMain from "../../../public/images/projects/sync-logo.png";
 
+import projectIntelpet from "../../../public/images/projects/intelpet.jpg";
+import projectLumenu from "../../../public/images/projects/lumenu.jpg";
+
+import projectJava from "../../../public/images/projects/java.png";
+import projectDB from "../../../public/images/projects/postgres.png";
+
 interface ProjectType {
     type: string;
     title: string;
@@ -102,6 +108,86 @@ export default function Projects() {
                         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0" >
                             <div className="col-span-12">
                                 <FeaturedProject
+                                    title="Sinc ERP"
+                                    summary="Sinc ERP is a business management system. I worked assisting in the creation, development and maintenance of the system. Defining standards, performing data modeling, analyzing requirements, proposing and implementing improvements to the system."
+                                    link="https://sincsuite.com.br/"
+                                    type="C# | .NET | MySQL | JavaScript"
+                                    img={projectSincMain}
+                                    github="https://sincsuite.com.br/"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Intelpet"
+                                    summary="The system manages scheduling for pet shops. In this project, I implemented the ability to schedule multiple pets within a single appointment, responsiveness, and optimization across all system screens, creation of menus for managing establishments, integration with external APIs, implementation of new business rules, and system maintenance."
+                                    link="https://intelpet.com.br/"
+                                    type="C# | .NET | MySQL | JavaScript"
+                                    img={projectIntelpet}
+                                    github="https://intelpet.com.br/"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Lumenu"
+                                    summary="In this project, I worked on implementing the workflow for editing items within an order, improvements in reading QR codes, system maintenance, deployments to staging and production environments, and database maintenance."
+                                    link="https://lumenu.digital/"
+                                    type="C# | .NET | MySQL | JavaScript"
+                                    img={projectLumenu}
+                                    github="https://lumenu.digital/"
+                                />
+                            </div>
+
+
+
+                            <div className="col-span-12">
+                                <FeaturedProject
+                                    title="Agência de Viagens"
+                                    summary="This project was done during the 4th semester at the Federal University of Uberlândia, in the Object-Oriented Programming I course. It consisted of building a system that simulated the operation of a travel agency to practice OO concepts. In this sense, we created a system where it's possible to register Cities, Hotels, Attractions, Airports, Users, among other entities. Additionally, users can log in and schedule their trips."
+                                    link="https://github.com/Emanuel321-DEV/Java/tree/main/projeto-agencia-de-viagens"
+                                    type="Java | Files | POO | Git"
+                                    img={projectJava}
+                                    github="https://github.com/Emanuel321-DEV/Java/tree/main/projeto-agencia-de-viagens"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="RMI"
+                                    summary="This Java project utilizes RMI (Remote Method Invocation) to facilitate communication between distributed systems. RMI is a Java API that allows one Java program to invoke methods on an object running in another Java Virtual Machine (JVM), potentially on a different physical machine. The project showcases how RMI can be employed to build distributed applications where objects can interact seamlessly across network boundaries. By utilizing RMI, developers can create scalable and distributed systems, enabling components to communicate and collaborate efficiently over a network. This project highlights the power of RMI in enabling remote procedure calls and building distributed Java applications."
+                                    link="https://github.com/Emanuel321-DEV/Java/tree/main/RMI"
+                                    type="Java | RMI | POO | Git"
+                                    img={projectJava}
+                                    github="https://github.com/Emanuel321-DEV/Java/tree/main/RMI"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Quick Sort Threading"
+                                    summary="This Java program implements the quicksort algorithm using multithreading. Quicksort is a widely used sorting algorithm known for its efficiency in sorting large datasets. By leveraging threads, the program parallelizes the sorting process, improving overall performance by utilizing multiple cores or processors simultaneously. This approach enhances the scalability of the sorting algorithm, making it suitable for handling massive datasets efficiently. The program demonstrates how threading can be applied to optimize sorting algorithms, showcasing the power of concurrency in computational tasks."
+                                    link="https://github.com/Emanuel321-DEV/Java/tree/main/quickSortThread"
+                                    type="Java | Threads | POO | Git"
+                                    img={projectJava}
+                                    github="https://github.com/Emanuel321-DEV/Java/tree/main/quickSortThread"
+                                />
+                            </div>
+
+
+
+                            <div className="col-span-12">
+                                <FeaturedProject
+                                    title="Car Rental Company"
+                                    summary="This project was developed throughout my Information Systems course and aimed to model a database system for a travel agency, performing modeling, creating tables and relationships, and scripting data querying, updating, and insertion."
+                                    link="./"
+                                    type="Model Data | SQL | Postgres | DDL"
+                                    img={projectDB}
+                                    github="./"
+                                />
+                            </div>
+
+
+                            
+                            
+                            <div className="col-span-12">
+                                <FeaturedProject
                                     title="Landing Page HubLocal"
                                     summary="Project made using React, it is a landing page that lists the advantages you will have by becoming a customer of the company HubLocal"
                                     link="https://project-bolsa-hubdev.vercel.app/"
@@ -134,17 +220,6 @@ export default function Projects() {
                                     type="NextJS | ReactJS | Typescript | Chakra-UI"
                                     img={projectIgnews}
                                     github="https://github.com/Emanuel321-DEV/ReactJS/tree/main/05-reactjs-ignews"
-                                />
-                            </div>
-
-                            <div className="col-span-12">
-                                <FeaturedProject
-                                    title="Sinc ERP"
-                                    summary="Sinc ERP is a business management system. I worked assisting in the creation, development and maintenance of the system. Defining standards, performing data modeling, analyzing requirements, proposing and implementing improvements to the system."
-                                    link="https://sincsuite.com.br/"
-                                    type="C# | .NET | MySql | JavaScript"
-                                    img={projectSincMain}
-                                    github="https://sincsuite.com.br/"
                                 />
                             </div>
 
