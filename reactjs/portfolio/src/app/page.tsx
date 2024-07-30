@@ -7,8 +7,8 @@ import { FaDownload } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex items-center text-black w-full min-h-screen">
-      <Container className="pt-0">
+    <main className="flex items-center text-black w-full">
+      <Container className="py-0">
         <div className="flex items-center justify-between w-full lg:flex-col">
           <div className="w-1/2 md:w-full">
             <Image 
