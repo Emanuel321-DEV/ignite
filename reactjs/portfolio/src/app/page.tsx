@@ -20,9 +20,9 @@ export default function Home() {
             </Image>
           </div>
           <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-            <AnimatedText text="Crafting Solutions through Software Development and Design." className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl" />
+            <AnimatedText text="Criando Soluções Através do Desenvolvimento e Design de Software." className="!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl" />
             <p className="my-4 text-base font-medium">
-            Skilled in C#, SQL, JavaScript, TypeScript, Java, C, Git, and passionate about algorithms. I turn concepts into innovative solutions. Explore my latest projects showcasing React.js and web development expertise.
+            Habilidoso em C#, SQL, JavaScript, TypeScript, Java, C e Git, e apaixonado por algoritmos. Transformo conceitos em soluções inovadoras. Explore meus projetos mais recentes que demonstram minha expertise em React.js e desenvolvimento web.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
               <Link 
@@ -31,10 +31,10 @@ export default function Home() {
                 className="flex items-center bg-black text-white p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-black
                 border-2 border-solid border-transparent hover:border-black transition ease duration-500"
                 download={true}
-              >Resume <FaDownload className="ml-2"/> </Link>
+              >Currículo<FaDownload className="ml-2"/> </Link>
               <Link href="mailto:emanuelcontact01@gmail.com" target={"_blank"}
               className="ml-4 text-lg font-medium capitalize text-black underline"
-              >Contact</Link>
+              >Contato</Link>
             </div>
           </div>
         </div>

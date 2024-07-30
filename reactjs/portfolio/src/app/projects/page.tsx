@@ -52,7 +52,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }: ProjectTyp
                         target="_blank"
                         className="ml-4 rounded-lg bg-black text-white p-2 px-6 text-lg font-semibold sm:px-4 sm-text-base"
                     >
-                        Visit Project
+                        Visualizar Projeto
                     </Link>
                 </div>
             </div>
@@ -79,7 +79,7 @@ const Project = ({ type, title, summary, img, link, github } : ProjectType) => {
                         target="_blank"
                         className="text-lg font-semibold underline"
                     >
-                        Visit
+                        Visualizar
                     </Link>
                     <Link
                         href={github}
@@ -104,12 +104,12 @@ export default function Projects() {
             <main className="flex w-full flex-col items-center justify-center">
                 <Container className="w-full pt-16 flex flex-col items-center justify-center">
                     <>
-                        <AnimatedText text="Code Unleashes Creativity!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+                        <AnimatedText text="Código Liberta Criatividade!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
                         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0" >
                             <div className="col-span-12">
                                 <FeaturedProject
                                     title="Sinc ERP"
-                                    summary="Sinc ERP is a business management system. I worked assisting in the creation, development and maintenance of the system. Defining standards, performing data modeling, analyzing requirements, proposing and implementing improvements to the system."
+                                    summary="Sinc ERP é um sistema de gestão empresarial. Trabalhei auxiliando na criação, desenvolvimento e manutenção do sistema. Definindo padrões, realizando modelagem de dados, analisando requisitos, propondo e implementando melhorias no sistema."
                                     link="https://sincsuite.com.br/"
                                     type="C# | .NET | MySQL | JavaScript"
                                     img={projectSincMain}
@@ -119,7 +119,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Intelpet"
-                                    summary="The system manages scheduling for pet shops. In this project, I implemented the ability to schedule multiple pets within a single appointment, responsiveness, and optimization across all system screens, creation of menus for managing establishments, integration with external APIs, implementation of new business rules, and system maintenance."
+                                    summary="O sistema gerencia agendamentos para pet shops. Neste projeto, implementei a capacidade de agendar vários pets em um único compromisso, responsividade e otimização em todas as telas do sistema, criação de menus para gerenciamento de estabelecimentos, integração com APIs externas, implementação de novas regras de negócios e manutenção do sistema."
                                     link="https://intelpet.com.br/"
                                     type="C# | .NET | MySQL | JavaScript"
                                     img={projectIntelpet}
@@ -129,7 +129,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Lumenu"
-                                    summary="In this project, I worked on implementing the workflow for editing items within an order, improvements in reading QR codes, system maintenance, deployments to staging and production environments, and database maintenance."
+                                    summary="Neste projeto, trabalhei na implementação do fluxo de trabalho para edição de itens dentro de um pedido, melhorias na leitura de códigos QR, manutenção do sistema, implantações em ambientes de staging e produção, e manutenção do banco de dados."
                                     link="https://lumenu.digital/"
                                     type="C# | .NET | MySQL | JavaScript"
                                     img={projectLumenu}
@@ -142,7 +142,7 @@ export default function Projects() {
                             <div className="col-span-12">
                                 <FeaturedProject
                                     title="Agência de Viagens"
-                                    summary="This project was done during the 4th semester at the Federal University of Uberlândia, in the Object-Oriented Programming I course. It consisted of building a system that simulated the operation of a travel agency to practice OO concepts. In this sense, we created a system where it's possible to register Cities, Hotels, Attractions, Airports, Users, among other entities. Additionally, users can log in and schedule their trips."
+                                    summary="Este projeto foi realizado durante o 4º semestre na Universidade Federal de Uberlândia, no curso de Programação Orientada a Objetos I. Consistiu na construção de um sistema que simulava a operação de uma agência de viagens para praticar conceitos de POO. Nesse sentido, criamos um sistema onde é possível cadastrar Cidades, Hotéis, Atrações, Aeroportos, Usuários, entre outras entidades. Além disso, os usuários podem fazer login e agendar suas viagens."
                                     link="https://github.com/Emanuel321-DEV/Java/tree/main/projeto-agencia-de-viagens"
                                     type="Java | Files | POO | Git"
                                     img={projectJava}
@@ -152,7 +152,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="RMI"
-                                    summary="This Java project utilizes RMI (Remote Method Invocation) to facilitate communication between distributed systems. RMI is a Java API that allows one Java program to invoke methods on an object running in another Java Virtual Machine (JVM), potentially on a different physical machine. The project showcases how RMI can be employed to build distributed applications where objects can interact seamlessly across network boundaries. By utilizing RMI, developers can create scalable and distributed systems, enabling components to communicate and collaborate efficiently over a network. This project highlights the power of RMI in enabling remote procedure calls and building distributed Java applications."
+                                    summary="Este projeto em Java utiliza RMI (Remote Method Invocation) para facilitar a comunicação entre sistemas distribuídos. RMI é uma API Java que permite que um programa Java invoque métodos em um objeto que está sendo executado em outra Máquina Virtual Java (JVM), possivelmente em uma máquina física diferente. O projeto demonstra como o RMI pode ser utilizado para construir aplicações distribuídas, onde objetos podem interagir de forma transparente através de limites de rede. Ao utilizar RMI, os desenvolvedores podem criar sistemas escaláveis e distribuídos, permitindo que os componentes se comuniquem e colaborem de maneira eficiente pela rede. Este projeto destaca o poder do RMI em viabilizar chamadas de procedimentos remotos e construir aplicações Java distribuídas."
                                     link="https://github.com/Emanuel321-DEV/Java/tree/main/RMI"
                                     type="Java | RMI | POO | Git"
                                     img={projectJava}
@@ -162,7 +162,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Quick Sort Threading"
-                                    summary="This Java program implements the quicksort algorithm using multithreading. Quicksort is a widely used sorting algorithm known for its efficiency in sorting large datasets. By leveraging threads, the program parallelizes the sorting process, improving overall performance by utilizing multiple cores or processors simultaneously. This approach enhances the scalability of the sorting algorithm, making it suitable for handling massive datasets efficiently. The program demonstrates how threading can be applied to optimize sorting algorithms, showcasing the power of concurrency in computational tasks."
+                                    summary="Este programa em Java implementa o algoritmo quicksort utilizando multithreading. O quicksort é um algoritmo de ordenação amplamente utilizado, conhecido por sua eficiência na ordenação de grandes conjuntos de dados. Ao aproveitar threads, o programa paraleliza o processo de ordenação, melhorando o desempenho geral ao utilizar múltiplos núcleos ou processadores simultaneamente. Essa abordagem aprimora a escalabilidade do algoritmo de ordenação, tornando-o adequado para lidar com conjuntos de dados massivos de forma eficiente. O programa demonstra como a utilização de threads pode ser aplicada para otimizar algoritmos de ordenação, evidenciando o poder da concorrência em tarefas computacionais."
                                     link="https://github.com/Emanuel321-DEV/Java/tree/main/quickSortThread"
                                     type="Java | Threads | POO | Git"
                                     img={projectJava}
@@ -175,7 +175,7 @@ export default function Projects() {
                             <div className="col-span-12">
                                 <FeaturedProject
                                     title="Car Rental Company"
-                                    summary="This project was developed throughout my Information Systems course and aimed to model a database system for a travel agency, performing modeling, creating tables and relationships, and scripting data querying, updating, and insertion."
+                                    summary="Este projeto foi desenvolvido ao longo do meu curso de Sistemas de Informação e teve como objetivo modelar um sistema de banco de dados para uma agência de viagens, realizando a modelagem, criação de tabelas e relacionamentos, e a escrita de consultas, atualizações e inserções de dados."
                                     link="./"
                                     type="Model Data | SQL | Postgres | DDL"
                                     img={projectDB}
@@ -189,7 +189,7 @@ export default function Projects() {
                             <div className="col-span-12">
                                 <FeaturedProject
                                     title="Landing Page HubLocal"
-                                    summary="Project made using React, it is a landing page that lists the advantages you will have by becoming a customer of the company HubLocal"
+                                    summary="Projeto desenvolvido usando React, é uma landing page que lista as vantagens de se tornar cliente da empresa HubLocal."
                                     link="https://project-bolsa-hubdev.vercel.app/"
                                     type="React | Typescript | Styled-Components"
                                     img={projectHubLocal}
@@ -199,9 +199,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Project WorldTrip"
-                                    summary="Modern travel website showcasing the world's major continents and
-                                    its main tourist cities, as well as the country in which these cities are located
-                                    locate. The site is responsive, and was made mainly using Nextjs and Chakra-UI"
+                                    summary="Site moderno de viagens que apresenta os principais continentes do mundo e suas principais cidades turísticas, bem como o país onde essas cidades estão localizadas. O site é responsivo e foi desenvolvido principalmente com Next.js e Chakra-UI."
                                     link="https://react-js-worldtrip.vercel.app"
                                     type="NextJS | React | Typescript | Chakra-UI"
                                     img={projectWorldTrip}
@@ -211,11 +209,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Ignews"
-                                    summary="News blog, users who have a subscription to
-                                    system can consume all the content of the posts, on the other hand,
-                                    Unregistered users only have partial access to publications. O
-                                    System has integration with payment method, PrismicCMS, GitHub
-                                    OAuth and FaunaDB"
+                                    summary="Blog de notícias onde usuários com assinatura ao sistema têm acesso a todo o conteúdo dos posts, enquanto usuários não registrados têm acesso apenas parcial às publicações. O sistema possui integração com métodos de pagamento, PrismicCMS, OAuth do GitHub e FaunaDB."
                                     link="https://ignews-five-peach.vercel.app/"
                                     type="NextJS | ReactJS | Typescript | Chakra-UI"
                                     img={projectIgnews}
@@ -226,7 +220,7 @@ export default function Projects() {
                             <div className="col-span-12">
                                 <FeaturedProject
                                     title="Image Upload"
-                                    summary="This project is an API built with Node.js + Express that enables image uploads to a server. Additionally, the project connects to a MongoDB database, saving the name provided in the request along with the image's path within the server."
+                                    summary="Este projeto é uma API construída com Node.js e Express que permite o upload de imagens para um servidor. Além disso, o projeto se conecta a um banco de dados MongoDB, salvando o nome fornecido na solicitação junto com o caminho da imagem no servidor."
                                     link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/06-nodejs-api-upload-imagens"
                                     type="Nodejs | Mongoose | Express | Yarn"
                                     img={projectNodeMain}
@@ -237,7 +231,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Node Concepts"
-                                    summary="This is an application to manage tasks In this challenge, some functionalities had to be implemented, such as creating a new todo, listing all todos, changing the title and deadline of an existing todo, marking a todo as done, deleting a todo."
+                                    summary="Esta é uma aplicação para gerenciar tarefas. No desafio, algumas funcionalidades precisavam ser implementadas, como criar um novo todo, listar todos os todos, alterar o título e o prazo de um todo existente, marcar um todo como concluído e excluir um todo."
                                     link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/01-nodejs-conceitos"
                                     type="NodeJS | Typescript | Express | Nodemon"
                                     img={projectNode}
@@ -248,7 +242,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Database Queries"
-                                    summary="In this challenge it was proposed to perform queries in the Postgres database using Typeorm, these should be done using ORM, using the Query Builder, using raw query. Additionally, this challenge has some tests that should be met"
+                                    summary="Neste desafio, foi proposto realizar consultas em um banco de dados Postgres utilizando TypeORM. As consultas deveriam ser feitas usando ORM, Query Builder e consultas em raw query. Além disso, o desafio inclui alguns testes que devem ser atendidos."
                                     link="https://github.com/Emanuel321-DEV/NodeJS/tree/main/03-nodejs-desafio-database_queries"
                                     type="Nodejs | Typescript | TypeOrm | Postgres"
                                     img={projectNode}
