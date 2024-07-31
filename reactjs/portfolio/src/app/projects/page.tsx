@@ -14,6 +14,7 @@ import projectSincMain from "../../../public/images/projects/sync-logo.png";
 import projectIntelpet from "../../../public/images/projects/intelpet.jpg";
 import projectLumenu from "../../../public/images/projects/lumenu.jpg";
 
+import projectJavaMain from "../../../public/images/projects/java-main.jpg";
 import projectJava from "../../../public/images/projects/java.png";
 import projectDB from "../../../public/images/projects/postgres.png";
 
@@ -30,7 +31,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }: ProjectTyp
     return (
         <article className="w-full flex items-center justify-between rounded-3xl border border-solid bg-white shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl sm:px-4">
             <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden round-lg">
-                <Image src={img} alt={title} className="w-full h-auto object-cover" />
+                <Image src={img} alt={title} className="max-w-96 m-auto h-auto object-cover" />
             </Link>
 
             <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg-w-full lg:pl-0 lg:pt-6 lg:w-full">
@@ -129,7 +130,7 @@ export default function Projects() {
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="Lumenu"
-                                    summary="Neste projeto, trabalhei na implementação do fluxo de trabalho para edição de itens dentro de um pedido, melhorias na leitura de códigos QR, manutenção do sistema, implantações em ambientes de staging e produção, e manutenção do banco de dados."
+                                    summary="Neste projeto, trabalhei na implementação do fluxo de trabalho para edição de itens dentro de um pedido, melhorias na leitura de códigos QR, manutenção do sistema, implantações em ambientes de staging e produção, e manutenção do banco de dados"
                                     link="https://lumenu.digital/"
                                     type="C# | .NET | MySQL | JavaScript"
                                     img={projectLumenu}
@@ -145,14 +146,14 @@ export default function Projects() {
                                     summary="Este projeto foi realizado durante o 4º semestre na Universidade Federal de Uberlândia, no curso de Programação Orientada a Objetos I. Consistiu na construção de um sistema que simulava a operação de uma agência de viagens para praticar conceitos de POO. Nesse sentido, criamos um sistema onde é possível cadastrar Cidades, Hotéis, Atrações, Aeroportos, Usuários, entre outras entidades. Além disso, os usuários podem fazer login e agendar suas viagens."
                                     link="https://github.com/Emanuel321-DEV/Java/tree/main/projeto-agencia-de-viagens"
                                     type="Java | Files | POO | Git"
-                                    img={projectJava}
+                                    img={projectJavaMain}
                                     github="https://github.com/Emanuel321-DEV/Java/tree/main/projeto-agencia-de-viagens"
                                 />
                             </div>
                             <div className="col-span-6 sm:col-span-12">
                                 <Project
                                     title="RMI"
-                                    summary="Este projeto em Java utiliza RMI (Remote Method Invocation) para facilitar a comunicação entre sistemas distribuídos. RMI é uma API Java que permite que um programa Java invoque métodos em um objeto que está sendo executado em outra Máquina Virtual Java (JVM), possivelmente em uma máquina física diferente. O projeto demonstra como o RMI pode ser utilizado para construir aplicações distribuídas, onde objetos podem interagir de forma transparente através de limites de rede. Ao utilizar RMI, os desenvolvedores podem criar sistemas escaláveis e distribuídos, permitindo que os componentes se comuniquem e colaborem de maneira eficiente pela rede. Este projeto destaca o poder do RMI em viabilizar chamadas de procedimentos remotos e construir aplicações Java distribuídas."
+                                    summary="Este projeto em Java utiliza RMI (Remote Method Invocation) para facilitar a comunicação entre sistemas distribuídos. RMI é uma API Java que permite que um programa Java invoque métodos em um objeto que está sendo executado em outra Máquina Virtual Java (JVM) O projeto demonstra como o RMI pode ser utilizado para construir aplicações distribuídas, onde objetos podem interagir de forma transparente através de limites de rede. Ao utilizar RMI, os desenvolvedores podem criar sistemas escaláveis e distribuídos, permitindo que os componentes se comuniquem e colaborem de maneira eficiente pela rede. Este projeto destaca o poder do RMI em viabilizar chamadas de procedimentos remotos e construir aplicações Java distribuídas."
                                     link="https://github.com/Emanuel321-DEV/Java/tree/main/RMI"
                                     type="Java | RMI | POO | Git"
                                     img={projectJava}
