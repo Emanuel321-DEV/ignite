@@ -30,8 +30,8 @@ interface ProjectType {
 const FeaturedProject = ({ type, title, summary, img, link, github }: ProjectType) => {
     return (
         <article className="w-full flex items-center justify-between rounded-3xl border border-solid bg-white shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl sm:px-4">
-            <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden round-lg">
-                <Image src={img} alt={title} className="max-w-96 m-auto h-auto object-cover" />
+            <Link href={link} target="_blank" className="w-1/2 cursor-pointer overflow-hidden round-lg md:w-full">
+                <Image src={img} alt={title} className="max-w-96 m-auto h-auto object-cover md:max-w-full" />
             </Link>
 
             <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg-w-full lg:pl-0 lg:pt-6 lg:w-full">
