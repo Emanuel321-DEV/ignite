@@ -109,6 +109,39 @@ export default function Projects() {
                         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0" >
                             <div className="col-span-12">
                                 <FeaturedProject
+                                    title="Ignews"
+                                    summary="Blog de notícias onde usuários com assinatura ao sistema têm acesso a todo o conteúdo dos posts, enquanto usuários não registrados têm acesso apenas parcial às publicações. O sistema possui integração com meios de pagamento, PrismicCMS, OAuth do GitHub e FaunaDB."
+                                    link="https://next-js-ignewss.vercel.app/"
+                                    type="NextJS | ReactJS | Typescript | Chakra-UI"
+                                    img={projectIgnews}
+                                    github="https://github.com/Emanuel321-DEV/NextJs/tree/main/05-reactjs-ignews"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Project WorldTrip"
+                                    summary="Site moderno de viagens que apresenta os principais continentes do mundo e suas principais cidades turísticas, bem como o país onde essas cidades estão localizadas. O site é responsivo e foi desenvolvido principalmente com Next.js e Chakra-UI."
+                                    link="https://react-js-worldtrip.vercel.app"
+                                    type="NextJS | React | Typescript | Chakra-UI"
+                                    img={projectWorldTrip}
+                                    github="https://github.com/Emanuel321-DEV/NextJs/tree/main/06-reactjs-interface-chakraUi"
+                                />
+                            </div>
+                            <div className="col-span-6 sm:col-span-12">
+                                <Project
+                                    title="Landing Page HubLocal"
+                                    summary="Projeto desenvolvido usando React, é uma landing page que lista as vantagens de se tornar cliente da empresa HubLocal."
+                                    link="https://project-bolsa-hubdev.vercel.app/"
+                                    type="React | Typescript | Styled-Components"
+                                    img={projectHubLocal}
+                                    github="#"
+                                />
+                            </div>
+
+
+
+                            <div className="col-span-12">
+                                <FeaturedProject
                                     title="Sinc ERP"
                                     summary="Sinc ERP é um sistema de gestão empresarial. Trabalhei auxiliando na criação, desenvolvimento e manutenção do sistema. Definindo padrões, realizando modelagem de dados, analisando requisitos, propondo e implementando melhorias no sistema."
                                     link="https://sincsuite.com.br/"
@@ -184,39 +217,6 @@ export default function Projects() {
                                 />
                             </div>
 
-
-                            
-                            
-                            <div className="col-span-12">
-                                <FeaturedProject
-                                    title="Landing Page HubLocal"
-                                    summary="Projeto desenvolvido usando React, é uma landing page que lista as vantagens de se tornar cliente da empresa HubLocal."
-                                    link="https://project-bolsa-hubdev.vercel.app/"
-                                    type="React | Typescript | Styled-Components"
-                                    img={projectHubLocal}
-                                    github="https://github.com/Emanuel321-DEV"
-                                />
-                            </div>
-                            <div className="col-span-6 sm:col-span-12">
-                                <Project
-                                    title="Project WorldTrip"
-                                    summary="Site moderno de viagens que apresenta os principais continentes do mundo e suas principais cidades turísticas, bem como o país onde essas cidades estão localizadas. O site é responsivo e foi desenvolvido principalmente com Next.js e Chakra-UI."
-                                    link="https://react-js-worldtrip.vercel.app"
-                                    type="NextJS | React | Typescript | Chakra-UI"
-                                    img={projectWorldTrip}
-                                    github="https://github.com/Emanuel321-DEV/ReactJS/tree/main/06-reactjs-interface-chakraUi"
-                                />
-                            </div>
-                            <div className="col-span-6 sm:col-span-12">
-                                <Project
-                                    title="Ignews"
-                                    summary="Blog de notícias onde usuários com assinatura ao sistema têm acesso a todo o conteúdo dos posts, enquanto usuários não registrados têm acesso apenas parcial às publicações. O sistema possui integração com métodos de pagamento, PrismicCMS, OAuth do GitHub e FaunaDB."
-                                    link="https://ignews-five-peach.vercel.app/"
-                                    type="NextJS | ReactJS | Typescript | Chakra-UI"
-                                    img={projectIgnews}
-                                    github="https://github.com/Emanuel321-DEV/ReactJS/tree/main/05-reactjs-ignews"
-                                />
-                            </div>
 
                             <div className="col-span-12">
                                 <FeaturedProject
